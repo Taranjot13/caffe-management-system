@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffe Mangement System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="caffe (2).css">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        img {
+            margin-left: 40px;
+            border-radius: 50%;
+        }
+        
+        h3 {
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body id="body">
+    <!--header-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="https://static.vecteezy.com/system/resources/previews/023/330/264/non_2x/coffee-shop-logo-badge-and-label-design-element-cup-beans-cafe-vintage-style-object-retro-illustration-vector.jpg" alt="" height="100px" width="100px">
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"> </div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src=" https://www.digitalassets.starbucks.eu/sites/starbucks-medialibrary/files/assets/a41e9afa349af0c2c601b0f5569b93a8_0.jpg" alt="" width="100px" height="100px" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">200/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src=" https://www.digitalassets.starbucks.eu/sites/starbucks-medialibrary/files/assets/a41e9afa349af0c2c601b0f5569b93a8_0.jpg" alt="" width="100px" height="100px" alt="">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">300/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src=" https://www.digitalassets.starbucks.eu/sites/starbucks-medialibrary/files/assets/a41e9afa349af0c2c601b0f5569b93a8_0.jpg" alt="" width="100px" height="100px" alt="">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">300/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src=" https://www.digitalassets.starbucks.eu/sites/starbucks-medialibrary/files/assets/a41e9afa349af0c2c601b0f5569b93a8_0.jpg" alt="" width="100px" height="100px" alt="">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">150/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh coffee in the morning</h3>
+            <p>Lorem ipsum,dolor sit amet consecutor elit.</p>
+            <a href="http://127.0.0.1:5500/cafe.html#menu" class="btn">Get your coffeee now</a>
+        </div>
+
+    </section>
+
+    <!-- about section start -->
+
+
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> us </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="https://cdn.pixabay.com/photo/2019/07/13/11/44/coffee-4334647_640.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>what makes our coffe special?</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quos ullam illo omnis esse ex, autem soluta optio totam dicta nesciunt labore distinctio hic! Exercitationem iure nihil quibusdam ducimus perspiciatis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores nesciunt doloremque iste facilis deleniti! Dolore officiis voluptas aliquam dignissimos.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- about section ends -->
+
+    <!-- menu section start -->
+    <section class="menu" id="menu">
+
+        <h1 class="heading">our <span> menu </span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2015/05/07/13/46/cappuccino-756490_640.jpg" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">200/-<span>250/-</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2015/07/12/14/26/coffee-842020_640.jpg" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">250/-<span>300/-</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/12/45/beverage-1869598_640.jpg" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">199/-<span>299/-</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2018/10/06/11/22/coffee-3727673_640.jpg" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">200/-<span>300</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2017/03/13/12/34/coffee-2139592_640.jpg" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">200/-<span>300/-</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/13/09/cappuccino-1869731_640.jpg" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">200/-<span>300/-</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_640.jpg" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">200/-<span>250/-</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2015/05/31/10/54/coffee-791045_640.jpg" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">200/-<span>250/-</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu section end -->
+
+    <!-- product section start -->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://img.freepik.com/free-vector/realistic-coffee-advertisement_52683-659.jpg?size=626&ext=jpg&ga=GA1.2.690990223.1691095261&semt=ais" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">299/-<span>399/-<span></div>
+    </div>
+</div>
+<div class="box">
+    <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+    </div>
+    <div class="image">
+        <img src="https://img.freepik.com/free-vector/realistic-coffee-advertisement_52683-659.jpg?size=626&ext=jpg&ga=GA1.2.690990223.1691095261&semt=ais" alt="">
+    </div>
+   
+    <div class="content">
+        <h3>fresh coffee</h3>
+        <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">299/-<span>399/-<span></div>
+    </div>
+</div>  
+<div class="box">
+    <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+    </div>
+    <div class="image">
+        <img src="https://img.freepik.com/free-vector/realistic-coffee-advertisement_52683-659.jpg?size=626&ext=jpg&ga=GA1.2.690990223.1691095261&semt=ais" alt="">
+    </div>
+   
+    <div class="content">
+        <h3>fresh coffee</h3>
+        <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">299/-<span>399/-<span></div>
+    </div>
+</div>
+   </div>
+ 
+</section>
+<!-- product section end -->
+
+<!-- review section start -->
+<section class="review" id="review">
+    <h1 class="heading">customer's<span> review</span></h1>
+                        <div class="box-container">
+
+                            <div class="box">
+                                <img src="" alt="" class="quote">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis atque molestiae quidem blanditiis saepe sint praesentium quam harum a vero.</p>
+                                <img src="https://tse2.mm.bing.net/th?id=OIP.hjhFNWop0GqRSfqUgms_vQHaKE&pid=Api&P=0&h=180" class="user" alt="">
+                                <h3>john depp</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <img src="" alt="" class="quote">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis atque molestiae quidem blanditiis saepe sint praesentium quam harum a vero.</p>
+                                <img src="https://tse2.mm.bing.net/th?id=OIP.O4Lrw3QH_SZeKwid1-Ha7QAAAA&pid=Api&P=0&h=180" class="user" alt="">
+                                <h3>Elon Musk</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <img src="" alt="" class="quote">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis atque molestiae quidem blanditiis saepe sint praesentium quam harum a vero.</p>
+                                <img src="https://tse4.mm.bing.net/th?id=OIP.MKOMDxEqJ6PIdGQMHtJKogHaLI&pid=Api&P=0&h=180" class="user" alt="">
+                                <h3>sara</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+    </section>
+    <!-- review section end -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span>us</h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.459043685758!2d76.80125609999997!3d30.70549299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fece98c02452b%3A0xf3c99c507c9226eb!2sElante%20Mall%2C%20178-178A%2C%20Purv%20Marg%2C%20Industrial%20Area%20Phase%20I%2C%20Chandigarh%2C%20160002!5e0!3m2!1sen!2sin!4v1696250493412!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputbox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputbox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputbox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" value=" contact now" class="btn">
+            </form>
+        </div>
+
+    </section>
+    <!-- contact section end-->
+    <!-- blogs section starts -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading"> our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="https://img00.deviantart.net/ec53/i/2015/198/0/5/coffee_and_books_by_bornhold-d6sgtb7.png " alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by admin / 21st may, 2021</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, nemo.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://static.vecteezy.com/system/resources/previews/000/439/144/original/cup-of-coffee-and-books-vector.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by admin / 21st may, 2021</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, nemo.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://i.pinimg.com/originals/bb/da/91/bbda9103deaec7d8cc8251803221e835.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by admin / 21st may, 2021</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, nemo.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blogs section starts -->
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="share">
+            <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/?lang=en-in" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+            <a href="https://in.linkedin.com/?original_referer=https%3A%2F%2Fin.search.yahoo.com%2F" class="fab fa-linkedin"></a>
+            <a href="https://www.pinterest.com/login/" class="fab fa-pinterest"></a>
+        </div>
+        
+        <div class="credit">created by <span>Taranjot Singh</span> | all rights reserved</div>
+    </section>
+    <!-- footer section end-->
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
